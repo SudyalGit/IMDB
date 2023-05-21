@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+#header{
+    background-color: rgb(26, 26, 26);
+    font-size: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#home{
+    background-color: #1a1a1a;
+    color: rgb(245,197,24);
+    cursor: pointer;
+}
+  
+#search-container{
+    background-color: #1a1a1a;
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+  
+  
+#search-bar{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    color: black;
+    border: 2px solid black;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px;
+    width: 90%;
+    height: 50%;
+    background: white;
+    font-size: 1rem;
+}
+
+#search-bar:hover{
+  background: rgba(255, 255, 255, 0.95);
+}
+  
+#search-bar-icon{
+    border: 2px solid black;
+    border-radius: 0 5px 5px 0;
+    height: 50%;
+    width: 10%;
+    background: rgb(245,197,24);
+    font-size:1.3rem;
+    cursor: pointer;
+}
+  
+#search-bar-icon>i{
+    color: rgba(26,26,26,0.7);
+    background-color:rgb(245,197,24);
+}
+
+#favorite{
+  background-color: #1a1a1a;
+  color: rgb(245,197,24);
+  cursor: pointer;
+}
+
+#cards-container{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.card{
+  font-family: monospace;
+  background-color: #1a1a1a;
+  padding: 5px;
+  width: 20%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover{
+  transition: padding 0.1s;
+  padding: 10px;
+}
+
+.card-img{
+  border-radius: 5px;
+  height: 60%;
+}
+
+.name{
+  background-color: #1a1a1a;
+  font-size: 1.4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.year{
+  background-color: #1a1a1a;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.detail{
+  font-size: 1.2rem;
+  font-family: monospace;
+  height: 5vh;
+  color: #5799ef;
+  border: none;
+  background-color: #545050;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.favorite{
+  font-size: 1.2rem;
+  font-family: monospace;
+  height: 5vh;
+  color: #5799ef;
+  border: none;
+  background-color: #545050;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.favorite>i{
+  color:white;
+  background-color: rgb(84, 80, 80);
+}
+
+.movie-detail{
+  font-family: monospace;
+  background-color: #1a1a1a;
+  display: flex;
+  padding: 5px;
+  height: 80vh;
+  width: 100%;
+}
+
+.movie-detail:hover{
+  transition: all 0.1;
+  padding: 10px;
+}
+
+.movie-detail>img{
+  border-radius: 5px 5px 0 0;
+  height: 100%
+}
+
+.container{
+  background-color: #1a1a1a;
+  padding: 20px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.movie-rating{
+  background-color: #1a1a1a;
+}
+
+.movie-title{
+  background-color: #1a1a1a;
+}
+
+.movie-year{
+  background-color: #1a1a1a;
+}
+
+.movie-lang{
+  background-color: #1a1a1a;
+}
+
+.movie-rating>i{
+  background-color: #1a1a1a;
+  color: rgb(245,197,24);;
+}
